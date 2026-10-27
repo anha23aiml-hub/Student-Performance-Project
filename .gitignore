@@ -6,3 +6,43 @@ mlflow.db
 mlruns/
 .env
 mlartifacts/
+# Python and generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environments and secrets
+.venv/
+.env.*
+
+# MLflow and model artifacts
+mlruns/
+mlartifacts/
+mlflow.db
+
+# Virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# MLflow files
+mlflow.db
+mlruns/
+mlartifacts/
+
+# Generated files
+logs/
+data/staging/
+data/analytical/
+model_export/
+
+# Local backup
+data/cleaned/student_cleaned_backup.csv
